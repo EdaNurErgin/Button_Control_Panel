@@ -44,17 +44,29 @@ Projeyi Nasıl Çalıştırırız ?
 Kodun İçeriği Hakkında Bilgiler
 
 -Java Swing: Grafiksel kullanıcı arayüzü oluşturmak için Swing kütüphanesi kullanılmıştır.
+
 -Buton Kontrolü: Her bir buton, tıklama olaylarına bağlı olarak rengini/simgesini değiştirir ve özel işlevler çalıştırır.
+
 -GraphQL Mutasyonları: Butona tıklama, bir mutasyonu tetikler ve ilgili butonun bağlı olduğu GraphQL bilgisini gösterir.
+
 -ButtonKontrolBolgesi  ve OzelButton adlı iki sınıf içerir.
+
 -ButtonKontrolBolgesi,ana sınıf olarak işlev görür.4x4’lük butonlar bu sınıfta oluşturulur.
+
 -OzelButton sınıfı , Özel JButton sınıfını temsil eder. Her bir butonun özel GraphQL bilgisini saklar.
 
+
+
 Proje Nasıl Test Edilir?
+
 1.Kodu çalıştırdığımda bütün butonların pasif olmalı yani butonların renkleri mavi olmalı.
+
 2.Kodu çalıştırdığımda bütün butonların üzerinde soru işareti simgesi olmalı.
+
 3.Kodu çalıştırdığımda ve bir butona tıkladığımda ;  soru işareti simgesi kalkmalı,butonun rengi pembe olmalı ve butonun simgesi ünlem olmalı.
+
 4.Her butona bastığımda , butonun konum bilgisi hakkında çıktı almalıyım.
+
 5.Kodu çalıştırdığımda ; 2.kez butona bastığımda diğer butonlar pasif hale gelmeli ve 2.bastığım buton aktif olmalı.
 
 
