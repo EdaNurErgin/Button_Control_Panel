@@ -31,7 +31,7 @@ Kodun İçeriği Hakkında Bilgiler
 
 -Java Swing: Grafiksel kullanıcı arayüzü oluşturmak için Swing kütüphanesi kullanılmıştır.
 -Buton Kontrolü: Her bir buton, tıklama olaylarına bağlı olarak rengini/simgesini değiştirir ve özel işlevler çalıştırır.
-- GraphQL Mutasyonları: Butona tıklama, bir mutasyonu tetikler ve ilgili butonun bağlı olduğu GraphQL bilgisini gösterir.
+-GraphQL Mutasyonları: Butona tıklama, bir mutasyonu tetikler ve ilgili butonun bağlı olduğu GraphQL bilgisini gösterir.
 -ButtonKontrolBolgesi  ve OzelButton adlı iki sınıf içerir.
 -ButtonKontrolBolgesi,ana sınıf olarak işlev görür.4x4’lük butonlar bu sınıfta oluşturulur.
 -OzelButton sınıfı , Özel JButton sınıfını temsil eder. Her bir butonun özel GraphQL bilgisini saklar.
