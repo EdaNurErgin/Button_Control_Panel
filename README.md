@@ -1,11 +1,17 @@
 # Button_Control_Panel
  Button Control Panel
 Button Kontrol Paneli Uygulaması
+
 Projenin Amacı Nedir?
+
 1.4x4 matris oluşturarak buradaki hücrelerin her birine buton eklemek .
+
 2.Butonların aktif olması durumlarını incelemek.
+
 3.Butonların pasif olması durumlarını incelemek.
+
 4.Kullanıcının 1. Kez butona bastığında programın doğru tepkiler vermesini sağlamak.(Butonun aktif simge ve aktif renk almasını sağlamak)
+
 5.Kullanıcının 2.kez  butona bastığında programın doğru tepkiler vermesini sağlamak.(Butonun pasif renk ve pasif simge almasını sağlamak.Aynıanda iki butonun aktif olmamasını sağlamak.)
 
 Projeyi Anlamak İçin Bilmemiz Gerekenler 
