@@ -10,7 +10,7 @@ Projenin Amacı Nedir?
 
 3.Butonların pasif olması durumlarını incelemek.
 
-4.Kullanıcının 1. Kez butona bastığında programın doğru tepkiler vermesini sağlamak.(Butonun aktif simge ve aktif renk almasını sağlamak)
+4.Kullanıcının 1. Kez butona bastığında programın doğru tepkiler vermesini sağlamak.(Butonun aktif simge ve aktif renk almasını sağlamak.)
 
 5.Kullanıcının 2.kez  butona bastığında programın doğru tepkiler vermesini sağlamak.(Butonun pasif renk ve pasif simge almasını sağlamak.Aynıanda iki butonun aktif olmamasını sağlamak.)
 
