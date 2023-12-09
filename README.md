@@ -2,11 +2,11 @@
  Button Control Panel
 Button Kontrol Paneli Uygulaması
 Projenin Amacı Nedir?
-4x4 matris oluşturarak buradaki hücrelerin her birine buton eklemek .
-Butonların aktif olması durumlarını incelemek.
-Butonların pasif olması durumlarını incelemek.
-Kullanıcının 1. Kez butona bastığında programın doğru tepkiler vermesini sağlamak.(Butonun aktif simge ve aktif renk almasını sağlamak)
-Kullanıcının 2.kez  butona bastığında programın doğru tepkiler vermesini sağlamak.(Butonun pasif renk ve pasif simge almasını sağlamak.Aynıanda iki butonun aktif olmamasını sağlamak.)
+-4x4 matris oluşturarak buradaki hücrelerin her birine buton eklemek .
+-Butonların aktif olması durumlarını incelemek.
+-Butonların pasif olması durumlarını incelemek.
+-Kullanıcının 1. Kez butona bastığında programın doğru tepkiler vermesini sağlamak.(Butonun aktif simge ve aktif renk almasını sağlamak)
+-Kullanıcının 2.kez  butona bastığında programın doğru tepkiler vermesini sağlamak.(Butonun pasif renk ve pasif simge almasını sağlamak.Aynıanda iki butonun aktif olmamasını sağlamak.)
 
 Projeyi Anlamak İçin Bilmemiz Gerekenler 
 GraphQL, bir veri sorgulama dilidir ve modern API'ler için bir sunucu tarafı bir teknolojisidir.
@@ -27,7 +27,8 @@ Projeyi Nasıl Çalıştırırız ?
 3.	Terminale “java ButtonKontrolBolgesi” komutunu yazarak projeyi başlatmış olun.
 
 
-Kodun İçeriği Hakkında Bilgiler:
+Kodun İçeriği Hakkında Bilgiler
+
 -Java Swing: Grafiksel kullanıcı arayüzü oluşturmak için Swing kütüphanesi kullanılmıştır.
 -Buton Kontrolü: Her bir buton, tıklama olaylarına bağlı olarak rengini/simgesini değiştirir ve özel işlevler çalıştırır.
 - GraphQL Mutasyonları: Butona tıklama, bir mutasyonu tetikler ve ilgili butonun bağlı olduğu GraphQL bilgisini gösterir.
