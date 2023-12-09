@@ -14,13 +14,21 @@ Projenin Amacı Nedir?
 
 5.Kullanıcının 2.kez  butona bastığında programın doğru tepkiler vermesini sağlamak.(Butonun pasif renk ve pasif simge almasını sağlamak.Aynıanda iki butonun aktif olmamasını sağlamak.)
 
+
 Projeyi Anlamak İçin Bilmemiz Gerekenler 
+
 GraphQL, bir veri sorgulama dilidir ve modern API'ler için bir sunucu tarafı bir teknolojisidir.
 GraphQL üç temel unsurdan oluşur:
+
 1.Sorgu (Query): İstemcinin istediği verileri almak için kullanılır. İstemci, sadece istediği alanları belirtir ve yalnızca bu alanları alır.
+
 2.Mutasyon (Mutation): Sunucuda değişiklik yapmak için kullanılır. Veritabanında ekleme, güncelleme, silme gibi işlemleri gerçekleştirir.
+
 3.Abonelik (Subscription): Belirli bir olay gerçekleştiğinde sunucudan gerçek zamanlı olarak veri almak için kullanılır
+
+
 Projemizde GraphQL ‘yi nasıl kullandık?
+
 Her buton bir GraphQL bilgisini temsil ediyor.Kullanıcı her butona bastığında aslında belirli bir mutasyonu çalıştırmış oluyorbunun sonucunda da butonun bağlı olduğu GraphQL bilgisi ekrana yazdırılıyor.
 Peki; bu ne işe yarar, diye düşünecek olursak şu cevabı verebiliriz:Her buton bir bilgi içerseydi biz bir butona bastığımızda , bastığımız butonun özelliği yani bilgisi aktifleşecekti .
 Her buton OzelButton sınıfı tarafından temsil edilir ve her butonun özel GraphQL bilgisi vardır.Bu bilgiler graphQLBilgi adlı alanda saklanır.
